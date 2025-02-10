@@ -1,0 +1,8 @@
+## This is a requirements file for Deliverable 1.
+
+requests
+validators
+textstat
+beautifulsoup4
+sentence-transformers
+transformers
