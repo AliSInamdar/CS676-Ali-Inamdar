@@ -1,0 +1,8 @@
+## These are the requirements for this particular deliverable 1.
+
+requests
+validators
+textstat
+beautifulsoup4
+sentence-transformers
+transformers
