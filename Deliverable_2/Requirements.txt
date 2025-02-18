@@ -1,0 +1,8 @@
+## This is a requirements file for the 2nd Deliverable.
+
+requests
+beautifulsoup4
+sentence-transformers
+transformers
+huggingface_hub
+torch
