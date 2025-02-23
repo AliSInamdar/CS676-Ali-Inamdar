@@ -1,0 +1,11 @@
+## This is a requirements file.
+
+Hugging Face
+pandas
+requests
+tensorflow
+keras
+google-colab
+huggingface_hub
+numpy
+pickle5  # For compatibility with some pickle operations
