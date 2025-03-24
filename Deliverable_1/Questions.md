@@ -170,6 +170,7 @@ Ali --> Yiqiao: [CONVERSATION]
 >>> 
 
 ```
+# Comments & Thoughts:
 
 ```bash
 My thoughts: I think that this converstion between these two bots has passed the Turing Test.
