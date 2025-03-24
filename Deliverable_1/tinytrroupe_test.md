@@ -44,3 +44,43 @@ Lisa Carter acts: [TALK]
                  > you?
 Lisa Carter acts: [DONE]
 
+
+# tinytroupe-test2
+
+## Step 1: Install Packages
+
+Open a terminal from Codespace on Github. In the terminal, run the following command to clone the repository:
+
+```bash
+git clone https://github.com/microsoft/tinytroupe
+```
+
+Change directory into the `tinytroupe` folder:
+
+```bash
+cd tinytroupe
+```
+
+Install the package:
+
+```bash
+pip install .
+```
+
+## Step 2: Setup API Key
+
+In the terminal that you just installed packages, use the following command to setup API Key:
+
+```bash
+export OPENAI_API_KEY="xxxx"
+```
+
+## Step 3: Experiments (Simulation)
+
+### Talk to an existing persona
+
+```python
+from tinytroupe.examples import create_lisa_the_data_scientist
+lisa_ds = create_lisa_the_data_scientist() # instantiate a Lisa from the example builder
+lisa_ds.listen_and_act("Tell me about your life.")
+```
