@@ -171,3 +171,4 @@ Reason:
 - I think the bot has passed the Turing test because of the way the conversation flow has taken place , and also due to the ease in which the enlish language was used by it.
 - I also think that this type of converstion is something that you can easily hear between a real student and a real teacher.
 - Hence , I think that this bot conversation has passed the Turing Test.
+```
