@@ -1,8 +1,8 @@
-## This is a markdown file showing the project output.
+# Test run for Tiny Troupe.
 
-## Test File.
+## Step 1: Installing the tinytroupe package:
 
-## 1. Cloning and installing the tiny troupe package.
+1. Cloning and installing the tiny troupe package.
 
 '''bash
 git clone https://github.com/microsoft/tinytroupe
