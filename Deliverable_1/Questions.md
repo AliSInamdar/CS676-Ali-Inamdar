@@ -52,6 +52,27 @@ Ans: The Turing Test was proposed by Alan Turing in 1950 as a way to evaluate a 
 
 ## Q.3)Create a simulation of your own topic and show me the transcript. This implies define at least two personas of your own choice with conflict built in and observe their conversation. You can simply copy/paste the conversation in a .md file. Please comment on the transcript whether you think the Turing Test is passed.
 
+```python
+from tinytroupe.agent import TinyPerson
+
+ali = TinyPerson("Ali")
+ali.define("age", 26)
+ali.define("nationality","Indian")
+ali.define("occupation","Data Science student at Pace University")
+ali.define("skills",["Python","Data Science","Machine Learning","SQL","Deep Learning","JAVA"])
+ali.define("quirks","Uses AI Jokes")
+```
+
+```python
+from tinytroupe.agent import TinyPerson
+
+yiqiao = TinyPerson("Yiqiao")
+yiqiao.define("age", 30)
+yiqiao.define("nationality", "Chinese")
+yiqiao.define("occupation", "He is a professor at Pace university.")
+yiqiao.define("skills",["Python","Data Science","Machine Learning","SQL","Deep Learning","Computer Vision","Neural Networks","Cloud Computing","NLP (Natural Language Processing)"])
+```
+
 ```bash
 
 >>> from tinytroupe.environment import TinyWorld
