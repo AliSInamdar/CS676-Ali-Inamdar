@@ -30,6 +30,7 @@ TinyPerson(name='Lisa Carter')
 
 
 lisa_ds.listen_and_act("Tell me about your life.")
+
 USER --> Lisa Carter: [CONVERSATION] 
           > Tell me about your life.
 Lisa Carter acts: [THINK] 
