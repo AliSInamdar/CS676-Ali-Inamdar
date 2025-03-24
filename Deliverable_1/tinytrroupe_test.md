@@ -3,8 +3,11 @@
 ## Test File.
 
 ## 1. Cloning and installing the tiny troupe package.
+
 git clone https://github.com/microsoft/tinytroupe
+
 cd tinytroupe
+
 pip install .
 
 ## 2. Importing the OPENAI API Key.
@@ -24,7 +27,10 @@ lisa_ds
 TinyPerson(name='Lisa Carter')
 
 ## 3.4. Calling the listen & act function of the persona. And asking her a question.
+
+
 lisa_ds.listen_and_act("Tell me about your life.")
+
 USER --> Lisa Carter: [CONVERSATION] 
           > Tell me about your life.
 Lisa Carter acts: [THINK] 
