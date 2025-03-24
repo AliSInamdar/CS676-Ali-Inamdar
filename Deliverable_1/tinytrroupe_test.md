@@ -44,6 +44,7 @@ Lisa Carter acts: [THINK]
 
 
 Lisa Carter acts: [TALK] 
+
                  > Sure! I grew up in Vancouver, Canada, in a tech-savvy family. I pursued a
                  > Master's in Data Science at the University of Toronto, where I focused on
                  > improving search relevance using context-aware models. Now, I work as a Data
