@@ -4,11 +4,11 @@
 
 ## 1. Cloning and installing the tiny troupe package.
 
+'''bash
 git clone https://github.com/microsoft/tinytroupe
-
 cd tinytroupe
-
 pip install .
+'''
 
 ## 2. Importing the OPENAI API Key.
 export OPENAI_API_KEY="enter api key"
