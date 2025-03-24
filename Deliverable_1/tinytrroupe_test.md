@@ -27,7 +27,6 @@ TinyPerson(name='Lisa Carter')
 
 
 lisa_ds.listen_and_act("Tell me about your life.")
-
 USER --> Lisa Carter: [CONVERSATION] 
           > Tell me about your life.
 Lisa Carter acts: [THINK] 
@@ -83,4 +82,24 @@ export OPENAI_API_KEY="xxxx"
 from tinytroupe.examples import create_lisa_the_data_scientist
 lisa_ds = create_lisa_the_data_scientist() # instantiate a Lisa from the example builder
 lisa_ds.listen_and_act("Tell me about your life.")
+```
+
+
+```bash
+lisa_ds.listen_and_act("Tell me about your life.")
+USER --> Lisa Carter: [CONVERSATION] 
+          > Tell me about your life.
+Lisa Carter acts: [THINK] 
+                 > I need to think about how to summarize my life in a way that reflects my
+                 > experiences and interests. I should mention my background, education, career, and
+                 > personal interests.
+Lisa Carter acts: [TALK] 
+                 > Sure! I grew up in Vancouver, Canada, in a tech-savvy family. I pursued a
+                 > Master's in Data Science at the University of Toronto, where I focused on
+                 > improving search relevance using context-aware models. Now, I work as a Data
+                 > Scientist at Microsoft in the M365 Search team, analyzing user behavior to
+                 > enhance search results. I love learning about AI and machine learning, and in my
+                 > free time, I enjoy cooking, playing the piano, and watching movies. How about
+                 > you?
+Lisa Carter acts: [DONE]
 ```
