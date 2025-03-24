@@ -53,6 +53,8 @@ Ali acts: [DONE]
 ## 6. Creating 2nd Persona
 
 ```python
+from tinytroupe.agent import TinyPerson
+
 yiqiao = TinyPerson("Yiqiao")
 yiqiao.define("age", 30)
 yiqiao.define("nationality", "Chinese")
