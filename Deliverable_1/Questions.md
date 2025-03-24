@@ -24,7 +24,8 @@ The original test,nvolved a human judge engaging in natural language conversatio
 With the rise of LLMs like ChatGPT, GPT-4, Claude, Gemini, and others, the concept of the Turing Test has evolved:
 
 1. Surface-Level Imitation vs. True Intelligence
-- LLMs can generate human-like responses and often fool users into thinking they are interacting with a human. However, they do not possess true understanding, consciousness, or reasoning beyond pattern recognition and statistical inference.
+- LLMs can generate human-like responses and often fool users into thinking they are interacting with a human. 
+However, they do not possess true understanding, consciousness, or reasoning beyond pattern recognition and statistical inference.
 
 2. Expanded Definitions of AI Evaluation
 The traditional Turing Test is now considered insufficient as a benchmark for true intelligence. Newer benchmarks focus on:
