@@ -1,5 +1,8 @@
 # Algorithms for Data Science - CS 676
-Github for all project repos and submissions for CS 676 (Algorithms for Data Science) by Ali Inamdar.
+Github for all project repos and submissions for CS 676 (Algorithms for Data Science).
+
+
+## Author: ALI INAMDAR
 
 
 ## Table of Content:
