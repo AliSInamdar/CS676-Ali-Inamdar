@@ -1,0 +1,6 @@
+openai
+serpapi
+serpapi
+pandas
+matplotlib
+scikit-learn
