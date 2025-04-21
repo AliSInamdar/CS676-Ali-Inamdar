@@ -1,0 +1,63 @@
+{
+    "python_code": {
+        "trigger_word": [
+            "run python code",
+            "execute script",
+            "python snippet",
+            "write a python function",
+            "show me some python",
+            "run a function",
+            "test this code",
+            "execute code block",
+            "python logic",
+            "code this in python",
+            "generate python code",
+            "python automation",
+            "create a python script",
+            "convert to python",
+            "python example",
+            "run a python file",
+            "use python for this",
+            "implement in python",
+            "build this using python",
+            "python command"
+        ],
+        "sample_payload": {
+    "prompt": "Train a LinearRegression model using df, with 'MEDV' as the target column, then calculate RMSE.",
+    "model": "mistral-medium",
+    "csv_file": "Housing.csv"
+  },
+  "prerequisite": "A CSV file is loaded from './temp/Housing.csv' into a variable named df. Your response must be only valid executable Python code — no explanations or markdown formatting."
+    },
+    "google_search": {
+        "trigger_word": [
+            "search on Google", 
+            "google search", 
+            "find information", 
+            "look up", 
+            "search web", 
+            "browse the internet", 
+            "google it", 
+            "find details online", 
+            "search for info", 
+            "do a web search",
+            "check online", 
+            "find resources", 
+            "get information", 
+            "online search", 
+            "look up information", 
+            "find data", 
+            "internet lookup", 
+            "get search results", 
+            "web query", 
+            "explore online"
+        ],
+        "sample_payload": {
+            "engine": "string",
+            "query": "string",
+            "location": "string",
+            "num": "string"
+        },
+        "prerequisite": null
+    }
+}
