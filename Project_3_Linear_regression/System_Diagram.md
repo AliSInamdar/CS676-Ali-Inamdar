@@ -21,7 +21,7 @@
           ▼
 ┌────────────────────────────────────────┐
 │ Train Linear Regression Model          │
-│ - scikit-learn's LinearRegression()     │
+│ - scikit-learn's LinearRegression()    │
 └─────────┬──────────────────────────────┘
           │
           ▼
