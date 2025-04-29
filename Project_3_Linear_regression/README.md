@@ -29,3 +29,43 @@ Hosted on Hugging Face Spaces:
 streamlit
 pandas
 scikit-learn
+```
+
+## System Design
+```python
+┌──────────────────────┐
+│  User opens App      │
+└─────────┬────────────┘
+          │
+          ▼
+┌────────────────────────────────────────┐
+│ Upload CSV file                        │
+└─────────┬──────────────────────────────┘
+          │
+          ▼
+┌────────────────────────────────────────┐
+│ Select Target Column                   │
+│ Select Feature Columns                 │
+└─────────┬──────────────────────────────┘
+          │
+          ▼
+┌────────────────────────────────────────┐
+│ Train Linear Regression Model          │
+│ - scikit-learn's LinearRegression()    │
+└─────────┬──────────────────────────────┘
+          │
+          ▼
+┌────────────────────────────────────────┐
+│ Evaluate Model                         │
+│ - MSE, MAE, R² metrics                 │
+└─────────┬──────────────────────────────┘
+          │
+          ▼
+┌────────────────────────────────────────┐
+│ Display Evaluation Metrics in Streamlit│
+└────────────────────────────────────────┘
+```
+
+
+## Author:
+Ali Inamdar
