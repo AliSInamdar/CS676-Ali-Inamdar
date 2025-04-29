@@ -2,7 +2,7 @@
 
 ## Here, We have used Linear Regression Model to predict the housing prices from the CSV file of the users choice.
 
-
+```python
 ┌──────────────────────┐
 │  User opens App      │
 └─────────┬────────────┘
@@ -34,3 +34,4 @@
 ┌────────────────────────────────────────┐
 │ Display Evaluation Metrics in Streamlit│
 └────────────────────────────────────────┘
+```
