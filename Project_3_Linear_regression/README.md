@@ -1,4 +1,5 @@
 # 📈 Linear Regression Streamlit App
+# 🏠 Housing Price Predictor
 
 This project is a user-friendly Streamlit app designed to perform Linear Regression on any uploaded CSV dataset. Users can select target and feature columns from the file and view model performance metrics like MSE, MAE, and R².
 
